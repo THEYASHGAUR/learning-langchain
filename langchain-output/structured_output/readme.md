@@ -129,16 +129,4 @@ result = structured_model.invoke("Your input text here")
 print(result.field1)  # Access structured data
 ```
 
-## Files Structure
-
-```
-structured_output/
-├── readme.md                           # This documentation
-├── pydantic_demo.py                   # Basic Pydantic example
-├── with_structured_output_pydantic.py # AI + Pydantic example
-├── with_structured_output_typeddict.py # AI + TypedDict example
-├── with_structured_output_json.py     # AI + JSON schema example
-└── typedict.py                        # Type utility functions
-```
-
 Each example demonstrates a different approach to structured output, helping you choose the best method for your specific use case.
